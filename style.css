@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(150, 9, 9);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* NGO info section */
+.ngo-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.ngo-info h2 {
+    color: rgb(150, 9, 9);
+}
+
+.ngo-info p {
+    font-size: 1.1rem;
+}
+
+/* Form section */
+.form-section {
+    background-color: #fff;
+    font-size: large
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    color: rgb(150, 9, 9);
+}
+
+.form-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-link:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #777;
+}
